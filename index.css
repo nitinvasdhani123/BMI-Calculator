@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body
+{
+    border: 2px solid black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#main
+{
+    border: 2px solid white;
+    border-radius: 2.1rem 2.1rem 2rem 2rem;
+    width: 20rem;
+    backdrop-filter: blur(2rem);
+    box-shadow: 8px 10px 7px rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+} 
+
+#result
+{
+    width: 19.81rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 2rem 2rem 0rem 0rem;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.informationtaken
+{
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#weight
+{
+    margin: 1rem 0rem;
+    font-size: 0.9rem;
+    text-align: center;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+
+#height
+{
+    margin: 1rem 0rem;
+    font-size: 0.9rem;
+    text-align: center;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+
+.calculate
+{
+    margin: 1rem 7rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+}
